@@ -10,7 +10,7 @@
         {
             "title": "Introduction: Use the OCI Document Understanding Service",
             "description": "Learn about the features provided by OCI Document Understanding Service",
-            "filename": "https://github.com/kddorazio/project/blob/main/docs/0-introduction/0-introduction.md"
+            "filename": "./docs/0-introduction/0-introduction.md"
         },
         {
             "title": "Lab 1: Configure OCI Document Understanding",
