@@ -26,7 +26,7 @@ In this workshop, you will:
 
 You may now **proceed to the next lab**.
 
-### Acknowledgements
+## Acknowledgements
 * **Authors**
     * Kate D'Orazio - Product Manager
 
