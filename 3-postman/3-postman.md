@@ -10,7 +10,7 @@ Postman is a GUI-based REST API  tool that is very popular among developers.
 ### Objectives:
 * Learn how to access Document Understanding Service through REST APIs.
 
-## **TASK 1:** Export the Document Understanding API Collection to your local computer
+## TASK 1: Export the Document Understanding API Collection to your local computer
 We have put together a Postman Collection to help you get started with calling the Document Understanding REST APIs which you'll import into your local POSTMAN instance.
 
 1. Install [POSTMAN](https://www.postman.com/downloads/) to your local computer if you don't already have it. Once installed, run it.
@@ -153,11 +153,11 @@ The information in the table is found here: https://docs.oracle.com/en-us/iaas/C
 2. The *Compartments* page is displayed and lists all of the compartments. If you are using a new trial tenancy, you will have a root compartment and *ManagedCompartmentForPaaS*. **Click the name of the root compartment** you configured in Lab 2 to access the OCI Document Understanding service.
 
 3. On the *Compartment details* page, click **Copy** next to the compartment OCID.
-  ![OCI comparment details page](./images/compartment-ocid.png " ")
+  ![OCI comparment details page](./images/compartment-copy.png " ")
 
 4. Paste the OCID into the **compartment_ocid CURRENT VALUE** field of the Postman Environment.
 
-  ![Postman value for compartment ID](./images/postman-compartment-ocid.png " ")
+  ![Postman value for compartment ID](./images/postman-copartment-ocid.png " ")
 
 #### f. save ####
 
@@ -188,6 +188,7 @@ In this task you'll call the Processor Job REST API.
 2. Replace the contents of the **Body** with the following:
 
 ```http
+<copy>
 {
   "processorConfig": {
     "processorType": "GENERAL",
@@ -216,6 +217,7 @@ In this task you'll call the Processor Job REST API.
     "prefix": ##todo
   }
 }
+</copy>
 ```
 
 In the next steps, you will insert your location details for the document you want to analyze
@@ -254,6 +256,7 @@ In this task, you'll call the Document AI synchronous REST API using POSTMAN.
 1. Review the response and notice the structure of the data including lifecycleDetails and percentComplete
 
 ```http
+<copy>
 {
   "compartmentId": "eu sunt id est",
   "features": [
@@ -281,8 +284,17 @@ In this task, you'll call the Document AI synchronous REST API using POSTMAN.
   "timeFinished": "1944-01-15T08:55:51.710Z",
   "timeStarted": "1987-12-05T05:34:39.081Z"
 }
+</copy>
 ```
 1. Now, in your object storage output bucket look under the "results" folder. You'll find a JSON file that includes all the text extracted from the original document
  ![Object storage bucket](./images/documentoutput.png)
 
 You have completed this lab!
+
+## Acknowledgements
+* **Authors**
+    * Kate D'Orazio - Product Manager
+
+
+* **Last Updated By/Date**
+    * Kate D'Orazio, Feb 2023
