@@ -25,9 +25,7 @@ If this is your first time using the OCI SDK, you'll need to create a config fil
 
     Mac OS / Linux:
     ```
-    <copy>
-    mkdir ~/.oci
-    </copy>
+    <copy>mkdir ~/.oci</copy>
     ```
 
 1. Generate an API signing key pair
@@ -78,7 +76,7 @@ If this is your first time using the OCI SDK, you'll need to create a config fil
 To Know more visit [Generating API KEY](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm) and [SDK and CLI Configuration File](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdkconfig.htm#SDK_and_CLI_Configuration_File)
 
 
-## TASK 2: Add Sample Documents to Object Storage
+## Task 2: Add Sample Documents to Object Storage
 
 1. Download the [Lab-4 sample documents](./sample-documents/lab4) and upload them to your Object Storage bucket.
 
@@ -88,7 +86,7 @@ To Know more visit [Generating API KEY](https://docs.oracle.com/en-us/iaas/Conte
 
 3. Choose an existing bucket or create a new bucket called "DocumentDemo".
 
-## TASK 3: OCI Document Understanding Service SDK Code Sample
+## Task 3: OCI Document Understanding Service SDK Code Sample
 
 1. Create a new file on your local machine called "invoicekv.py" and add it to C:\Users\<user>\AppData\Local\Programs\Python\<Python version>\Scripts folder or add it to your Desktop if you are using a Mac.
 

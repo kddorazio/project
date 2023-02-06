@@ -10,7 +10,7 @@ Postman is a GUI-based REST API  tool that is very popular among developers.
 ### Objectives:
 * Learn how to access Document Understanding Service through REST APIs.
 
-## TASK 1: Export the Document Understanding API Collection to your local computer
+## Task 1: Export the Document Understanding API Collection to your local computer
 We have put together a Postman Collection to help you get started with calling the Document Understanding REST APIs which you'll import into your local POSTMAN instance.
 
 1. Install [POSTMAN](https://www.postman.com/downloads/) to your local computer if you don't already have it. Once installed, run it.
@@ -21,7 +21,7 @@ We have put together a Postman Collection to help you get started with calling t
 3. Use this [link](https://www.postman.com/oracledevs/workspace/oracle-cloud-infrastructure-rest-apis/environment/29850-eab82db8-e9a1-4200-9f39-de10b4a0f371) to download the **OCI Credentials Environment**. The link opens Postman on the web. Select **Environmments** on the left side of the screen then select **OCI Credentials**. One the right side of the screen find the 3 dots and click it to open a popup menu. On the menu click **Export** to export the credentials file and save it to your local computer.
   ![Postman OCI Credentials](./images/postman-exportoci-credentials.png)
 
-## **TASK 2:** Set up your OCI credentials
+## Task 2: Set up your OCI credentials
 
 1. Import the OCI Credentials file into Postman running on your local machine by using the **Import** button at the top.
   ![Postman import button](./images/postman-importoci1.png)
@@ -157,7 +157,7 @@ The information in the table is found here: https://docs.oracle.com/en-us/iaas/C
 
 4. Paste the OCID into the **compartment_ocid CURRENT VALUE** field of the Postman Environment.
 
-  ![Postman value for compartment ID](./images/postman-copartment-ocid.png " ")
+  ![Postman value for compartment ID](./images/postman-copmartment-ocid.png " ")
 
 #### f. save ####
 
@@ -169,7 +169,7 @@ The information in the table is found here: https://docs.oracle.com/en-us/iaas/C
 
 ![Postman save button](./images/save-button.PNG " ")
 
-## **TASK 3:** Import the Document Understanding API collection
+## Task 3: Import the Document Understanding API collection
 
 1. Import the Document Understanding API Collection file (**DocumentUnderstanding API.postman_collection.json**) into Postman running on your local machine by selecting **Collections** on the left side of the  screen then clicking the **Import** button at the top.
 
@@ -177,7 +177,7 @@ The information in the table is found here: https://docs.oracle.com/en-us/iaas/C
 
 2. In the *Import* dialog, click the **Upload Files** button and select the json file you exported in Task 1 (**DocumentUnderstanding API.postman_collection.json**).
 
-## **TASK 4:** Invoke the Processor Job REST API
+## Task 4: Invoke the Processor Job REST API
 
 In this task you'll call the Processor Job REST API.
 
@@ -244,7 +244,7 @@ Now, you will insert your location details for where you want your results to be
 In POSTMAN, click the **Send** button. The response should return in a few seconds with a job ID.
 
 
-## **TASK 5:** Get Job Details
+## Task 5: Get Job Details
 
 In this task, you'll call the Document AI synchronous REST API using POSTMAN.
 
