@@ -10,12 +10,12 @@
         {
             "title": "Introduction: Use the OCI Document Understanding Service",
             "description": "Learn about the features provided by OCI Document Understanding Service",
-            "filename": "./docs/0-introduction/0-introduction.md"
+            "filename": "./0-introduction/0-introduction.md"
         },
         {
             "title": "Lab 1: Configure OCI Document Understanding",
             "description": "",
-            "filename": "./1-policies/1-policies.md"
+            "filename": "../../1-policies/1-policies.md"
         },
         {
             "title": "Lab 2: Use OCI Document Understanding in the Console",
