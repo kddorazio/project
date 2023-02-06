@@ -64,7 +64,7 @@ If you want to restrict access to a specific compartment, you can use the follow
 Document Understanding Service stores results in your tenancy's object store. Add the following policy to grant object storage access permissions to the user group who requested the analysis to documents:
 
 ```
-<coy>allow group <group_in_tenancy> to manage object-family in compartment <output_bucket_located_object_storage_compartment></copy>
+<copy>allow group <group_in_tenancy> to manage object-family in compartment <output_bucket_located_object_storage_compartment></copy>
 ```
 
 Congratulations! </br>
@@ -79,3 +79,4 @@ You may now **proceed to the next lab**.
 
 
 * **Last Updated By/Date**
+    * Kate D'Orazio, Feb 2023
