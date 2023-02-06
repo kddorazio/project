@@ -14,8 +14,8 @@
         },
         {
             "title": "Lab 1: Configure OCI Document Understanding",
-            "description": "",
-            "filename": "../../1-policies/1-policies.md"
+            "description": "Set up policies to use Document Understanding",
+            "filename": "./1-policies/1-policies.md"
         },
         {
             "title": "Lab 2: Use OCI Document Understanding in the Console",
